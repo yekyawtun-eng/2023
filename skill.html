@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- /BOOTSTRAP CSS -->
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /CUSTOM CSS -->
+
+    <!--FONT AWESOME  -->
+    <script src="https://kit.fontawesome.com/9c0a8388fb.js" crossorigin="anonymous"></script>
+
+    <!--/FONT AWESOME  -->
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div>
+
+                    <!--HEADER Navigation  -->
+                    <header class="header" style="background-color: white;">
+                        <div style="background-color: aquamarine;">
+                            <p style="padding-top: 10px;padding-left: 58px;padding-bottom: 10px;font-size: 12px;">This
+                                Portfolio page is designed for employment opportunities.If you
+                                want to contact
+                                <a href="mailto:uyekyawtun@gmail.com" style="color: firebrick;"> Mail Me </a>.
+                            </p>
+                        </div>
+                        <nav class="navbar">
+                            <!-- Webpage Title -->
+                            <h1 class="logo"><a href="#">Ye Kyaw Tun's Portfolio</a></h1>
+                            <!-- Nav Links -->
+                            <ul class="nav nav-underline links">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="resume.html">Resume</a></li>
+                                <li><a href="education.html">Education</a></li>
+                                <li><a href="work gallery.html">Work Gallery</a></li>
+                                <li><a class="nav-link active" href="skill.html">Skills</a></li>
+                                <li><a href="personal-information.html">About Me</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- Navigation Toggle Button -->
+                        <button id="nav-toggle" class="nav-toggle-button">MENU &#9776;</button>
+
+                        <div id="nav-menu" class="nav-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="resume.html">Resume</a></li>
+                                <li><a href="education.html">Education</a></li>
+                                <li><a href="work gallery.html">Work Gallery</a></li>
+                                <li><a href="skill.html">Skills</a></li>
+                                <li><a href="personal-information.html">About Me</a></li>
+                            </ul>
+                        </div>
+                        <!-- /Navigation Toggle Button -->
+
+                    </header>
+                    <!--/HEADER Navigation  -->
+
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div id="skill-container" style="margin-bottom: 300px;margin-top: 170px;">
+                                <div class="row" id="work-gallary">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="images/ACMV-01.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">ACMV Drawing</h5>
+
+                                                <a href="ACMV.html" target="_blank" class="btn btn-primary">See
+                                                    More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="images/plumping-01.jpg" class="card-img-top" alt="Deaerator">
+
+                                            <div class="card-body">
+                                                <h5 class="card-title">Plumping Drawing</h5>
+
+                                                <a href="plumping.html" target="_blank" class="btn btn-primary">See
+                                                    More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="images/fire-fighting-01.jpg" class="card-img-top" alt="PF">
+
+                                            <div class="card-body">
+                                                <h5 class="card-title">Fire Fighting Layout Plan </h5>
+
+                                                <a href="fire-fighting.html" target="_blank" class="btn btn-primary">See
+                                                    More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="images/power-lighting-plan-01.jpg" class="card-img-top" alt="...">
+
+                                            <div class="card-body">
+                                                <h5 class="card-title">Lighting and Power Plans</h5>
+
+                                                <a href="lighting-and-power.html" target="_blank"
+                                                    class="btn btn-primary">See More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- FOOTER SECTION -->
+                <footer>
+                    <div class="w-auto p-3" id="footer-container">
+
+                        <a href="index.html">Home</a>&ensp; |&ensp; <a href="resume.html">Resume</a>&ensp; |
+                        &ensp;<a href="education.html">Education</a> &ensp;|&ensp;
+                        <a href="work gallery.html">Work Gallery</a> &ensp;|&ensp;
+                        <a href="skill.html">Skills</a>&ensp;|&ensp; <a href="personal-information.html">About Me</a>
+
+                        <p>Copyright &copy; 2023 Ye Kyaw Tun. All rights reserved.</p>
+                    </div>
+                </footer>
+
+                <!-- /FOOTER SECTION -->
+
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const navToggle = document.getElementById("nav-toggle");
+                        const navDrawer = document.getElementById("nav-drawer");
+
+                        navToggle.addEventListener("click", function () {
+                            if (navDrawer.style.display === "block") {
+                                navDrawer.style.display = "none";
+                            } else {
+                                navDrawer.style.display = "block";
+                            }
+                        });
+                    });
+
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const navToggle = document.getElementById("nav-toggle");
+                        const navMenu = document.getElementById("nav-menu");
+
+                        navToggle.addEventListener("click", function () {
+                            if (navMenu.classList.contains("show-menu")) {
+                                navMenu.classList.remove("show-menu");
+                            } else {
+                                navMenu.classList.add("show-menu");
+                            }
+                        });
+                    });
+
+                </script>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
