@@ -155,13 +155,13 @@ body {
 
 
 h1 {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     color: firebrick;
     text-align: left;
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
+    margin-left: 2px;
     letter-spacing: 1px;
     text-decoration: none;
 
@@ -170,7 +170,7 @@ h1 {
 
 /* Adjust header text size with different screen */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
     h1 {
         font-size: 2rem;
     }
@@ -238,8 +238,8 @@ h1 {
 .nav-toggle-button {
     display: block;
     /* Show the button on all screens initially */
-    position: fixed;
-    top: 80px;
+    position: absolute;
+    top: 90px;
     right: 20px;
     background-color: none;
     color: none;
