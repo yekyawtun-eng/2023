@@ -16,8 +16,8 @@ body {
     align-items: center;
     justify-content: space-between;
     max-width: 1800px;
-    padding: 20px;
-    border-bottom: 2px solid black;
+    padding: 5px;
+    border-bottom: 1px solid black;
 }
 
 .navbar .logo a {
@@ -58,10 +58,12 @@ body {
     height: 120vh;
     max-width: 1200px;
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
 
 .hero-section .hero {
     max-width: 50%;
@@ -238,7 +240,7 @@ h1 {
     display: block;
     /* Show the button on all screens initially */
     position: absolute;
-    top: 90px;
+    top: 70px;
     right: 20px;
     background-color: none;
     color: none;
@@ -410,10 +412,10 @@ h6 {
     padding-top: 20px;
     padding-bottom: 10px;
     box-sizing: border-box;
-    border-left: 3px solid #2F5A78;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
     margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -444,10 +446,10 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     box-sizing: border-box;
-    border-left: 3px solid #2F5A78;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #skill-container {
@@ -460,7 +462,7 @@ h6 {
 }
 
 #work-gallary {
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -469,15 +471,15 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     box-sizing: border-box;
-    border-left: 3px solid #2F5A78;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
 #experiences {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -498,10 +500,10 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     box-sizing: border-box;
-    border-left: 3px solid #2F5A78;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #education-container ul li {
@@ -509,7 +511,7 @@ h6 {
 }
 
 #education {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -538,25 +540,23 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     box-sizing: border-box;
-    border-left: 3px solid #2F5A78;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 10px;
 }
 
 #skills {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 20px;
 }
 
 #contact-container {
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     box-sizing: border-box;
-    border-left: 3px solid #2F5A78;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
 }
 
 #contact-container ul li {
@@ -564,7 +564,8 @@ h6 {
 }
 
 #contact-info {
-    margin-left: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
 
 }
 
