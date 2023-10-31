@@ -55,11 +55,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 95vh;
-    padding: 0 15px;
+    height: 120vh;
+    padding: 0 auto;
     max-width: 1200px;
-    margin-top: 30px;
-    padding-top: 140px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding-top: 10px;
 }
 
 .hero-section .hero {
@@ -174,6 +175,8 @@ h1 {
     h1 {
         font-size: 2rem;
     }
+
+
 
 }
 
