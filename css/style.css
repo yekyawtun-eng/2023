@@ -242,7 +242,6 @@ h1 {
     position: absolute;
     top: 70px;
     right: 20px;
-    background-color: none;
     color: none;
     border: none;
     cursor: pointer;
@@ -255,7 +254,7 @@ h1 {
     display: block;
     /* Display the menu on all screens initially */
     position: fixed;
-    top: 0;
+    top: 0px;
     left: -300px;
     /* Initially off the screen */
     height: 100%;
@@ -309,7 +308,11 @@ h1 {
         left: 0;
         /* Show the menu by moving it onto the screen */
     }
+
+
 }
+
+
 
 /* Toogle Button */
 
@@ -560,7 +563,13 @@ h6 {
 }
 
 #contact-container ul li {
-    font-size: 20px;
+    font-size: 10px;
+}
+
+@media (min-width:1000px) {
+    #contact-container ul li {
+        font-size: 1.5rem;
+    }
 }
 
 #contact-info {
