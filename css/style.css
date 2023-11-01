@@ -70,8 +70,14 @@ body {
 }
 
 .hero h2 {
-    font-size: 2.5rem;
+    font-size: 23px;
     margin-bottom: 20px;
+}
+
+@media (min-width: 1000px) {
+    .hero h2 {
+        font-size: 3rem;
+    }
 }
 
 .hero p {
@@ -563,7 +569,7 @@ h6 {
 }
 
 #contact-container ul li {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 @media (min-width:1000px) {
