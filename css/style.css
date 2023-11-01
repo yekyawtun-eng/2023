@@ -17,7 +17,6 @@ body {
     justify-content: space-between;
     max-width: 1800px;
     padding: 5px;
-    border-bottom: 1px solid black;
 }
 
 .navbar .logo a {
@@ -87,6 +86,7 @@ body {
 
 .hero-section .buttons {
     margin-top: 40px;
+    margin: 20px;
 }
 
 .hero-section .buttons a {
