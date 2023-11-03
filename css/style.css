@@ -3,6 +3,16 @@ body {
 
 }
 
+.hire-me {
+    background-color: aquamarine;
+    border-bottom: 10px solid transparent;
+    height: 30px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
 /* Header Nav */
 .header {
     position: absolute;
@@ -54,13 +64,15 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 120vh;
+    height: 100vh;
     max-width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background: linear-gradient(to bottom, firebrick 10%, #fff 100%);
+    background: linear-gradient(to bottom, firebrick 5%, #fff 100%);
+    border-left: 50px solid thin;
+    border-right: 10px solid transparent;
 }
 
 
@@ -572,7 +584,7 @@ h6 {
 }
 
 #contact-container ul li {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 @media (min-width:1000px) {
