@@ -25,7 +25,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:ital@1&display=swap" rel="stylesheet">
     <!-- /Google Font for Heading -->
-
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
 
 </head>
 
@@ -39,39 +39,27 @@
                     <!--HEADER Navigation  -->
                     <header class="header" style="background-color: white;">
                         <div class="hire-me">
-                            <p>This
-                                Portfolio is designed for employment opportunities.
-                                <a href="mailto:uyekyawtun@gmail.com" style="color: firebrick;"> Hire Me </a>
+                            <p>This Portfolio is designed for employment opportunities.
                             </p>
                         </div>
-                        <nav class="navbar">
-                            <!-- Webpage Title -->
-                            <h1 class="logo"><a href="#">Ye Kyaw Tun</a></h1>
-                            <!-- Nav Links -->
-                            <ul class="nav nav-underline links">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="resume.html">Resume</a></li>
-                                <li><a class="nav-link active" href="education.html">Education</a></li>
-                                <li><a href="work gallery.html">Work Gallery</a></li>
-                                <li><a href="skill.html">Skills</a></li>
-                                <li><a href="personal-information.html">About Me</a></li>
-                            </ul>
+                        <!-- New Add Nav -->
+                        <nav>
+                            <div class="nav__content">
+                                <div class="logo"><a href="#">Ye Kyaw Tun</a></div>
+                                <label for="check" class="checkbox">
+                                    <i class="ri-menu-line"></i>
+                                </label>
+                                <input type="checkbox" name="check" id="check" />
+                                <ul class="nav nav-underline links">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="resume.html">Resume</a></li>
+                                    <li><a class="nav-link active" href="education.html">Education</a></li>
+                                    <li><a href="work gallery.html">Work Gallery</a></li>
+                                    <li><a href="skill.html">Skills</a></li>
+                                    <li><a href="personal-information.html">About Me</a></li>
+                                </ul>
+                            </div>
                         </nav>
-
-                        <!-- Navigation Toggle Button -->
-                        <button id="nav-toggle" class="nav-toggle-button">&#9776;</button>
-
-                        <div id="nav-menu" class="nav-menu">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="resume.html">Resume</a></li>
-                                <li><a href="education.html">Education</a></li>
-                                <li><a href="work gallery.html">Work Gallery</a></li>
-                                <li><a href="skill.html">Skills</a></li>
-                                <li><a href="personal-information.html">About Me</a></li>
-                            </ul>
-                        </div>
-                        <!-- /Navigation Toggle Button -->
 
                     </header>
                     <!--/HEADER Navigation  -->
@@ -88,9 +76,9 @@
                     <!-- Show B.E Certificate -->
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col thumbnail-container">
-                            <div class="card h-100" style="padding: 80px; ">
+                            <div class="card h-100" style="padding: 10px; ">
                                 <img src="images/B.E (Mechanical).jpg" class="card-img-top thumbnail" alt="..."
-                                    style="border:1px solid black; height: 510px;">
+                                    style="border:1px solid black; height: 650px;">
                                 <div class="card-body" style="margin-top: 30px;">
                                     <h5 class="card-title" style="color: firebrick; text-align: center;">B.E Certificate
                                     </h5>
@@ -100,9 +88,9 @@
                             </div>
                         </div>
                         <div class="col thumbnail-container">
-                            <div class="card h-100" style="padding: 80px;">
+                            <div class="card h-100" style="padding: 10px;">
                                 <img src="images/ye_kyaw_tun_B-Tech.jpg" class="card-img-top btech" alt="..."
-                                    style="border: 1px solid black; height: 510px;">
+                                    style="border: 1px solid black; height: 650px;">
                                 <div class="card-body" style="margin-top: 30px;">
                                     <h5 class="card-title" style="color: firebrick; text-align: center;">B.Tech
                                         Certificate</h5>
@@ -112,9 +100,9 @@
                             </div>
                         </div>
                         <div class="col thumbnail-container">
-                            <div class="card h-100" style="padding: 80px;">
+                            <div class="card h-100" style="padding: 10px;">
                                 <img src=" images/ye_kyaw_tun_A-GTI.jpg" class="card-img-top agti" alt="..."
-                                    style="border: 1px solid black;height: 510px;">
+                                    style="border: 1px solid black;height: 650px;">
                                 <div class="card-body" style="margin-top: 30px;">
                                     <h5 class="card-title" style="color: firebrick;text-align: center;">A.G.T.I
                                         Certificate</h5>
@@ -135,9 +123,9 @@
                     <div class="row row-cols-1 row-cols-md-5 g-4">
 
                         <div class="col thumbnail-container">
-                            <div class="card h-90" style="padding: 30px;">
+                            <div class="card h-90" style="padding: 10px;">
                                 <img src="images/1-year.jpg" class="card-img-top oneyear" alt="..."
-                                    style="border: 1px solid black;height: 300px;">
+                                    style="border: 1px solid black;height: 400px;">
                                 <div class="card-body">
                                     <h5 class="card-title" style="text-align: center;">First Year</h5>
                                     <p class="card-text" style="text-align: justify;">Marks obtained in the first year
@@ -147,9 +135,9 @@
                         </div>
 
                         <div class="col thumbnail-container">
-                            <div class="card h-90" style="padding: 30px;">
+                            <div class="card h-90" style="padding: 10px;">
                                 <img src="images/2-year.jpg" class="card-img-top twoyear" alt="..."
-                                    style="border: 1px solid black;height: 300px;">
+                                    style="border: 1px solid black;height: 400px;">
                                 <div class="card-body">
                                     <h5 class="card-title" style="text-align: center;">Second Year</h5>
                                     <p class="card-text" style="text-align: justify;">Marks obtained in the second year
@@ -159,9 +147,9 @@
                         </div>
 
                         <div class="col thumbnail-container">
-                            <div class="card h-90" style="padding: 30px;">
+                            <div class="card h-90" style="padding: 10px;">
                                 <img src="images/3-year.jpg" class="card-img-top threeyear" alt="..."
-                                    style="border: 1px solid black;height: 300px;">
+                                    style="border: 1px solid black;height: 400px;">
                                 <div class="card-body">
                                     <h5 class="card-title" style="text-align: center;">Third Year</h5>
                                     <p class="card-text" style="text-align: justify;">Marks obtained in the third year
@@ -171,9 +159,9 @@
                         </div>
 
                         <div class="col thumbnail-container">
-                            <div class="card h-90" style="padding: 30px;">
+                            <div class="card h-90" style="padding: 10px;">
                                 <img src="images/4-year.jpg" class="card-img-top fouryear" alt="..."
-                                    style="border: 1px solid black;height: 300px;">
+                                    style="border: 1px solid black;height: 400px;">
                                 <div class="card-body">
                                     <h5 class="card-title" style="text-align: center;">Fourth Year</h5>
                                     <p class="card-text" style="text-align: justify;">Marks obtained in the fourth year
@@ -183,9 +171,9 @@
                         </div>
 
                         <div class="col thumbnail-container">
-                            <div class="card h-90" style="padding: 30px;">
+                            <div class="card h-90" style="padding: 10px;">
                                 <img src="images/5-year.jpg" class="card-img-top fiveyear" alt="..."
-                                    style="border: 1px solid black;height: 300px;">
+                                    style="border: 1px solid black;height: 400px;">
                                 <div class="card-body">
                                     <h5 class="card-title" style="text-align: center;">Fifth Year</h5>
                                     <p class="card-text" style="text-align: justify;">Marks obtained in the fifth year
@@ -231,9 +219,7 @@
                     <!-- /Show High School Certificate -->
 
 
-                    <div class="fullscreen">
-                        <img id="fullscreen-image" src="" alt="Full Screen Image">
-                    </div>
+
 
 
                     <!-- FOOTER SECTION -->
@@ -249,6 +235,10 @@
                             <p>&copy; 2023 Ye Kyaw Tun </p>
                         </div>
                     </footer>
+
+                    <div class="fullscreen">
+                        <img id="fullscreen-image" src="" alt="Full Screen Image">
+                    </div>
 
                 </div>
 

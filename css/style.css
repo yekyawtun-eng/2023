@@ -11,6 +11,7 @@ body {
     padding-bottom: 10px;
     font-size: 12px;
     padding-left: 8px;
+    z-index: 1;
 }
 
 /* Header Nav */
@@ -21,22 +22,7 @@ body {
     width: 100%;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1800px;
-    padding: 5px;
-    border-top: 10px solid transparent;
-}
 
-.navbar .logo a {
-    font-size: 2.3rem;
-    text-decoration: none;
-    color: firebrick;
-    padding-left: 35px;
-    font-weight: bold;
-}
 
 
 .navbar .links {
@@ -60,7 +46,7 @@ body {
     color: rgb(40, 5, 104);
 }
 
-
+/*  
 .hero-section {
     display: flex;
     justify-content: space-evenly;
@@ -176,6 +162,9 @@ body {
     }
 }
 
+*/
+
+/*
 
 h1 {
     font-size: 10px;
@@ -201,6 +190,7 @@ h1 {
 
 
 }
+
 
 
 /* NAVBAR */
@@ -255,6 +245,7 @@ h1 {
 
 */
 
+/*
 /* Initially hide the toggle button */
 .nav-toggle-button {
     display: block;
@@ -402,9 +393,9 @@ video {
 h2 {
     font-size: 27px;
     color: #2F5A78;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
 }
 
 /* Certificate Title */
@@ -488,6 +479,10 @@ h6 {
     margin-bottom: 8px;
 }
 
+.exp-container-section {
+    margin-top: 1100px;
+}
+
 #experiences-container {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -539,7 +534,7 @@ h6 {
 .fullscreen {
     display: none;
     position: fixed;
-    top: 0;
+    top: 40px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -799,4 +794,227 @@ footer a {
 
 footer a:hover {
     color: firebrick;
+}
+
+
+
+/* Add New Nav CSS */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+    --primary-color: firebrick;
+    --primary-color-dark: #9333ea;
+    --secondary-color: #ca8a04;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --extra-light: #faf5ff;
+    --max-width: 1200px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav__content a {
+    text-decoration: none;
+}
+
+
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 99;
+}
+
+.nav__content {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+nav .logo a:hover {
+    color: var(--primary-color-dark);
+}
+
+nav .checkbox {
+    display: none;
+}
+
+nav input {
+    display: none;
+}
+
+nav .checkbox i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.nav__content ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+}
+
+.nav__content ul li a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    color: var(--secondary-color);
+}
+
+.section {
+    background-color: var(--extra-light);
+}
+
+.section__container {
+    min-height: 120vh;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitle {
+    letter-spacing: 2px;
+    color: var(--text-light);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.title span {
+    font-weight: 600;
+}
+
+.description {
+    line-height: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.action__btns {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.action__btns button {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.hire__me {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.hire__me:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.download {
+    color: var(--primary-color);
+}
+
+.download:hover {
+    background-color: var(--primary-color-dark);
+    color: #ffffff;
+}
+
+.image {
+    display: grid;
+    place-items: center;
+}
+
+.image img {
+    width: min(25rem, 90%);
+    border-radius: 100%;
+}
+
+@media (width < 1000px) {
+    nav .checkbox {
+        display: block;
+    }
+
+    .nav__content ul {
+        position: absolute;
+        width: 100%;
+        height: calc(120vh - 100px);
+        left: -100%;
+        top: 85px;
+        background-color: var(--extra-light);
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    nav #check:checked~ul {
+        left: 0;
+    }
+
+    .nav__content ul li a {
+        font-size: 1.25rem;
+    }
+
+    .section__container {
+        padding: 10rem 1rem 5rem 1rem;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image {
+        grid-area: 1/1/2/2;
+    }
+
+    .action__btns {
+        margin: auto;
+    }
 }
