@@ -393,8 +393,8 @@ video {
 h2 {
     font-size: 27px;
     color: #2F5A78;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -503,7 +503,7 @@ h6 {
 #experiences ul li {
     text-align: justify;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Work Gallery */
@@ -569,7 +569,7 @@ h6 {
 }
 
 #contact-container ul li {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 @media (min-width:1000px) {
@@ -843,10 +843,13 @@ nav {
 }
 
 nav .logo a {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--primary-color);
     transition: 0.3s;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 nav .logo a:hover {
@@ -962,6 +965,7 @@ ul li a:hover {
 
 .download {
     color: var(--primary-color);
+    text-decoration: none;
 }
 
 .download:hover {
