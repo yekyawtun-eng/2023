@@ -957,6 +957,7 @@ ul li a:hover {
 .hire__me {
     background-color: var(--primary-color);
     color: #ffffff;
+    text-decoration: none;
 }
 
 .hire__me:hover {
