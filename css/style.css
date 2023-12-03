@@ -480,7 +480,7 @@ h6 {
 }
 
 .exp-container-section {
-    margin-top: 1100px;
+    margin-top: 800px;
 }
 
 #experiences-container {
@@ -902,7 +902,7 @@ ul li a:hover {
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .content {
